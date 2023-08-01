@@ -1,25 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 * {
     box-sizing: border-box;
 }
 body {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/home-pic2.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url("images/home-pic2.jpg");
     background-size: cover;
-    color: white;
+    color:#C3EDC0;
 }
+.ima
+{
+    padding-top: 150px;
+    margin-left:40%;
+    width:50%;
+    
+    
+}
+
+
 .container {
+    padding-top: 0px;
     padding-left: 20px;
     padding-right: 20px;
-    margin: auto;
+    margin-top: 0px;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    
+    width: 100%;
+    
 }
 .nav-bar {
     display: flex;
     align-items: center;
+    color: red;
 }
+.what{
+    
+    align-items: center;
+    color: red;
+    font-size: 24px;
+}
+p[draggable]
+{
+    color: black;
+}
+
+
 .Logo img {
-    width: 140px;
-    height: 145px;
+    width: 120px;
+    height: 120px;
     margin-top: 10px;
     opacity: 0.8;
 }
@@ -29,6 +60,7 @@ body {
 nav {
     flex: 1;
     text-align: right;
+    background-color:darkblue;
 }
 nav ul {
     display: inline-block;
@@ -98,3 +130,24 @@ li:hover a {
     transition: width ease-in-out 1s;
     cursor: pointer;
 }
+.const{
+    display:inline-block;
+    height:200px;
+    width: 300px;
+    margin:20px;
+
+}
+.const>img
+{
+    border-radius: 50%;
+    float: left;
+}
+.ac{
+    display: inline-block;
+    height:200px;
+    width:300px;
+    margin:20px;
+}
+
+
+
